@@ -874,3 +874,6 @@ if "%extracted%"=="0" (
     exit
 )
 exit /b 0
+switch game filter (enabled)
+switch ipset (any)
+update ipset list
